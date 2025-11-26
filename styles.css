@@ -41,3 +41,77 @@ header nav ul li a {
   color: black;
   font-weight: 700;
 }
+/* <-----------------main------------------> */
+.pink-box {
+  background-color: #fd7479;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-pink-box {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main div img {
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+}
+
+.pink-box-text {
+  padding: 0.8rem;
+  color: white;
+}
+
+.button {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(204, 204, 204);
+  cursor: pointer;
+  transition: 0.3s;
+  scale: 1.1;
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+button:hover {
+  background-color: rgb(218, 150, 150);
+  scale: 1.06;
+}
+
+button:active {
+  background-color: rgb(194, 58, 58);
+  scale: 1;
+}
+
+/* ------------------white box--------------------- */
+.white-box {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-2 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.title-3 {
+  font-size: 3rem;
+  margin: -1rem;
+}
