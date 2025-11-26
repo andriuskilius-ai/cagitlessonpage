@@ -115,3 +115,13 @@ button:active {
   font-size: 3rem;
   margin: -1rem;
 }
+
+/* ------------------img------------------- */
+.images {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+  height: 300px;
+}
