@@ -1,4 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .wrapper {
-  background-color: antiquewhite;
+  background-color: white;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.inside {
+  background-color: bisque;
+  height: 300vh;
+  width: 90%;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+header img {
+  height: 50px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
 }
